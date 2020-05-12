@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures myhaproxy'
 long_description 'Installs/Configures myhaproxy'
-version '0.1.2'
+version '0.1.3'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 depends 'haproxy', '~> 6.2.5'
 # The `issues_url` points to the location where issues for this cookbook are
